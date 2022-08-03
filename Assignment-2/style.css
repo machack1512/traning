@@ -9,16 +9,24 @@ img
 	float: left;
 	position: relative;
 }
+div.head
+{
+
+	border-style: double;
+	border-radius: 25px;
+}
 h1
 {
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 10px;
 	font-size: 50px;
-	border-style: none;
-	padding-bottom: 20px;
 	margin: 20px;
 	font-family: sans-serif;
-	border-style: double;
+}
+p.quate
+{
+	font-family: sans-serif;
+	font-style: italic;
 }
 p.info
 {
@@ -26,15 +34,16 @@ p.info
 	margin-top: 15px;
     margin-right: 70px;
     margin-left: 70px;
-    font-size: 21px;
+    font-size: 20px;
     font-family: sans-serif;
     border-style: double;
+	border-radius: 25px;
 }
 h4
 {
 	text-align: center;
 }
-div
+div.pub
 {
 	margin-right: 220px;
 	margin-left: 240px;
@@ -42,6 +51,7 @@ div
 	font-family: sans-serif;
 	font-size: 21px;
 	border-style: double;
+	border-radius: 25px;
 }
 p
 {
