@@ -1,0 +1,102 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    background-color: sienna;
+}
+div.para
+{
+    position: relative;
+}
+img
+{
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+h1
+{
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    font-family: sans-serif;
+    color: white;
+    font-size: 55px;
+}
+p.hello
+{
+    position: absolute;
+    top: 270px;
+    left: 150px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    
+}
+a
+{
+    position: absolute;
+    top: 320px;
+    left: 600px;
+    font-family: sans-serif;
+    font-size: 29px;
+    color: white;
+    border-style: solid;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: black;
+    text-decoration: none;  
+}
+a:hover {
+    text-decoration: underline;
+    background-color: brown;
+  }
+p.first
+{
+    background-color: sienna;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+}
+p.second
+{
+    background-color: wheat;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: sienna;
+    text-align: center;
+    padding: 50px;
+}
+div.hello
+{
+    float: left;
+    width: 26%;
+    padding: 3%;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+div.hello2
+{
+    float: left;
+    color: sienna;
+    width: 26%;
+    padding: 3%;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+div.hello3
+{
+    float: left;
+    width: 26%;
+    padding: 3%;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
