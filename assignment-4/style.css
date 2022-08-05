@@ -6,7 +6,7 @@
 h1
 {
     text-align: center;
-    font-size: 33px;
+    font-size: 190%;
 }
 .container
 {
@@ -21,8 +21,7 @@ header
     align-items: center;
     justify-content: end;
     background-color: teal;
-    height: 15vh;
-    margin-bottom: 15px;
+    height: 15%;
 }
 .tab
 {
@@ -30,7 +29,7 @@ header
    border: 2px solid black;
    padding: 10px;
    text-decoration: none;
-   font-size: 21px;
+   font-size: 140%;
    margin: 5px;
    color: black;
 }
@@ -126,7 +125,9 @@ img
 .card1
 {
     height: 450px;
+    border-radius: 10px;
     width: 25%;
+    overflow: hidden;
     background-color: steelblue;
     border: 2px solid black;
 }
@@ -178,7 +179,17 @@ h3
 {
     background-color: red;
     width: 100px;
-    height: 50px;
+    height: 40px;
     border-radius: 25px;
-    margin-top: 30px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 19px;
+}
+.true1 a:hover
+{
+    color: brown;
+}
+.true2 a:hover
+{
+    color: brown;
 }
