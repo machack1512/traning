@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ASSIGNMENT-6</title>
+</head>
+<body>
+    <script>
+        
+    function Fun() {
+        const d = new Date();
+        document.getElementById("demo").innerHTML = d.getDate() + "\\" + d.getMonth() + "\\" + d.getFullYear(); 
+
+      }
+      function Fun1() {
+        const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        const d = new Date();
+        let day = days[d.getDay()];
+        document.getElementById("demo1").innerHTML = day;
+      }
+      function myname() {
+      let person = prompt("Please enter your name", " ");
+      if (person != null) {
+           document.getElementById("demo2").innerHTML =
+               "Hello " + person + "! How are you today?";
+      }
+  }
+   function mycal()
+   {
+    let num1 = prompt("Please enter your num1");
+    let num2 = prompt("Please enter your num2");
+    document.getElementById("demo3").innerHTML = num1 + num2;
+    document.getElementById("demo4").innerHTML = num1 - num2;
+    document.getElementById("demo5").innerHTML = num1 * num2;
+    document.getElementById("demo6").innerHTML = num1 / num2;
+   }
+        
+    </script>
+        <div class="container">
+         <div class="first"><button style="margin-right: 15%; padding: 10px;" onclick="Fun()">DATE</button>
+         <button style=" padding: 10px;" onclick="Fun1()">DAY</button></div>
+         <br>
+         <p id="demo"></p>
+         <p id="demo1"></p>
+         <br>
+         <button style="margin-left: 45%; padding: 10px;" onclick="myname()">NAME</button>
+         <br>
+         <p id="demo2"></p>
+         <br>
+         <button style="margin-left: 42%; padding: 10px;" onclick="mycal()">CALCULATION</button>
+         <br>
+         <br>
+         <p id="demo3"></p>
+         <p id="demo4"></p>
+         <p id="demo5"></p>
+         <p id="demo6"></p>
+        </div>
+        </div>
+</body>
+</html>
