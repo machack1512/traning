@@ -8,7 +8,7 @@ function Fun()
             sum = sum + Number(num);
         else
         {
-            console.log(sum);
+            document.getElementById("demo").innerHTML = sum;
             break;
         }  
     }
@@ -20,28 +20,37 @@ function Fun1()
     {
         let num = prompt("Enter the number: ");
         if(num == x)
-            console.log("User Won");
+            document.getElementById("demo").innerHTML = "USER WON";
         else
         {
             continue;}
     }
-    console.log("Number: " + x);
+    document.getElementById("demo").innerHTML = "NUMBER: " + x;
 }
 function Fun2()
 {
     const person = {
-        name: "SHAHRIN KHAN",
-        age: 20,
+        name: " ",
+        age: " ",
         address: {
-            city: "JAIPUR",
-            state: "RAJASTHAN",
-            pin: 302012
+            city: " ",
+            state: " ",
+            pin: " "
         },
-        hobbies: "CRICKET AND READING",
+        hobbies: " ",
         display: function() {
             return this.name + " " + this.age + " " + this.address.city +
              " " + this.address.state + " " + this.address.pin + " " + this.hobbies;
           } 
       };
-      console.log(person.display());
+      person.name = prompt("Enter name: ");
+      person.age = prompt("Enter age: ");
+      person.address.city = prompt("Enter city: ");
+      person.address.state = prompt("Enter state: ");
+      person.address.pin = prompt("Enter pin: ");
+      person.hobbies = prompt("Enter hobbies: ");
+  
+      
+
+      document.getElementById("demo").innerHTML = person.display();
 }
