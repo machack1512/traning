@@ -23,27 +23,19 @@ function Fun1()
 }
 function Fun2()
 {
-	let marks = [];
-	let sum = 0;
-	let stu = prompt("Enter the no. of Student: ")
-	for(var j=0;j<stu;j++){
-	for(var i=0;i<5;i++){
-		marks[i] = prompt("Enter the marks: " + (i+1));}
-	}
-	for(var j in marks)
-		sum += marks[j];
-	let percent = sum / 5;
-	if (percent>=35)
-	{
-		document.getElementById("demo").innerHTML = "PASSED";
-		document.getElementById("demo1").innerHTML = "PERCENTAGE";
-		document.getElementById("demo2").innerHTML = percent;
-	}
-	else{
-		document.getElementById("demo").innerHTML = "FAILED";
-		document.getElementById("demo1").innerHTML = "PERCENTAGE";
-		document.getElementById("demo2").innerHTML = percent;
-	}
+   let marks = [];
+   let stu = prompt("Enter no. of Student: ");
+   for(var i =0;i<stu;i++)
+   {
+   	marks[i] = prompt("Enter the marks: ");
+   }
+   for(var j=0;j<stu;j++)
+   {
+   	if(marks[j]>175)
+   		document.getElementById("demo").innerHTML = "PASSED";
+   	else
+   		document.getElementById("demo").innerHTML = "FAILED";
+   }
 
 }
 function Fun3()
