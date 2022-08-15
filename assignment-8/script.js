@@ -25,8 +25,11 @@ function Fun2()
 {
 	let marks = [];
 	let sum = 0;
-	for(var i=0;i<5;i++)
-		marks[i] = prompt("Enter the marks of subject: " + (i+1));
+	let stu = prompt("Enter the no. of Student: ")
+	for(var j=0;j<stu;j++){
+	for(var i=0;i<5;i++){
+		marks[i] = prompt("Enter the marks: " + (i+1));}
+	}
 	for(var j in marks)
 		sum += marks[j];
 	let percent = sum / 5;
