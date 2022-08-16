@@ -32,7 +32,6 @@ function Fun2()
    for(var j=1;j<stu;j++)
    {
    	if(marks[j]>175){
-        if (marks[j-1]>175)
    		document.getElementById("demo").innerHTML = "ALL PASSED";
     }
    	else
