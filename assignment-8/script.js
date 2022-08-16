@@ -24,17 +24,19 @@ function Fun1()
 function Fun2()
 {
    let marks = [];
-   let stu = prompt("Enter no. of Student: ");
+   let stu = parseInt(prompt("Enter no. of Student: "));
    for(var i =0;i<stu;i++)
    {
-   	marks[i] = prompt("Enter the marks: ");
+   	marks[i] = parseInt(prompt("Enter the marks: "));
    }
-   for(var j=0;j<stu;j++)
+   for(var j=1;j<stu;j++)
    {
-   	if(marks[j]>175)
-   		document.getElementById("demo").innerHTML = "PASSED";
+   	if(marks[j]>175){
+        if (marks[j-1]>175)
+   		document.getElementById("demo").innerHTML = "ALL PASSED";
+    }
    	else
-   		document.getElementById("demo").innerHTML = "FAILED";
+   		document.getElementById("demo").innerHTML = "NOT EVERYONE IS PASSED";
    }
 
 }
