@@ -44,5 +44,8 @@ function Fun4()
     let str = prompt("Enter the String: ");
     let first = str.slice(0,3);
     let last = str.slice(str.length-3);
-    document.getElementById("demo").innerHTML = first + last;
+    if(str.length < 3){
+    document.getElementById("demo").innerHTML = str;}
+    else{
+    document.getElementById("demo").innerHTML = first + last;}
 }
