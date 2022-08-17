@@ -2,7 +2,7 @@ function Fun()
 {
    let str = prompt("Enter the String with extra white spaces: ");
    let result = str.trim();
-   document.getElementById("demo").innerHTML = result;
+   document.getElementById("demo").innerHTML = "STRING WITHOUT EXTRA SPACE: " + result;
 }
 function Fun1()
 {
@@ -13,9 +13,9 @@ function Fun1()
     	arr[i] = prompt("Enter the element: " + (i+1));
     arr.forEach(myFunction);
     document.getElementById("demo").innerHTML = "OLD ARRAY";
-    document.getElementById("demo1").innerHTML = arr;
+    document.getElementById("demo1").innerHTML = "[" + arr + "]";
     document.getElementById("demo2").innerHTML = "NEW ARRAY";
-    document.getElementById("demo3").innerHTML = text
+    document.getElementById("demo3").innerHTML = "[" + text + "]"
     function myFunction(item, index) 
     {
         text += item + ", "; 
@@ -46,11 +46,11 @@ function Fun3()
     for(var i=0; i<size; i++)
     	arr[i] = prompt("Enter the element: " + (i+1));
     document.getElementById("demo").innerHTML = "OLD ARRAY";
-    document.getElementById("demo1").innerHTML = arr;
+    document.getElementById("demo1").innerHTML = "[" + arr + "]";
     var t = prompt("Enter the new element: ");
     arr.push(t);
     document.getElementById("demo2").innerHTML = "NEW ARRAY";
-    document.getElementById("demo3").innerHTML = arr;
+    document.getElementById("demo3").innerHTML = "[" + arr + "]";
 }
 function Fun4()
 {
@@ -59,9 +59,9 @@ function Fun4()
     for(var i=0; i<size; i++)
     	arr[i] = prompt("Enter the element: " + (i+1));
     document.getElementById("demo").innerHTML = "OLD ARRAY";
-    document.getElementById("demo1").innerHTML = arr;
+    document.getElementById("demo1").innerHTML = "[" + arr + "]";
     arr.sort();
     arr.reverse();
     document.getElementById("demo2").innerHTML = "NEW ARRAY";
-    document.getElementById("demo3").innerHTML = arr;
+    document.getElementById("demo3").innerHTML = "[" + arr + "]";
 }

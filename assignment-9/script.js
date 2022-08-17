@@ -45,7 +45,7 @@ function Fun4()
     let first = str.slice(0,3);
     let last = str.slice(str.length-3);
     if(str.length < 3){
-    document.getElementById("demo").innerHTML = str;}
+    document.getElementById("demo").innerHTML = "NORMAL STRING: " + str;}
     else{
-    document.getElementById("demo").innerHTML = first + last;}
+    document.getElementById("demo").innerHTML = "3 CHAR FROM FIRST + 3 CHAR FORM LAST: " + first + last;}
 }
