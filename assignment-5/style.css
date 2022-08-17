@@ -5,7 +5,7 @@
 }
 .sky
 {
-    background-image: url(sky.jpg);
+    background-image: url(image.gif);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -17,12 +17,12 @@
 {
     background-image: url(highway.jpg);
     position: absolute;
-    width: 300%;
+    width: 200%;
     height: 200px;
     left: 0;
     right: 0;
     bottom: 0;
-    animation: road 5s linear infinite;
+    animation: road .6s linear infinite;
     z-index: 2;
 }
 @keyframes road {
@@ -33,13 +33,13 @@
 .city
 {
     background-image: url(city.png);
-    width: 300%;
+    width: 200%;
     height: 200px;
     position: absolute;
     left: 0;
     right: 0;
     bottom: 200px;
-    animation: road 5s linear infinite;
+    animation: road .6s linear infinite;
 }
 .car img
 {
@@ -58,7 +58,7 @@
     bottom: 88px;
     left: 540px;
     z-index: 3;
-    animation: wheel 2s linear infinite;
+    animation: wheel 1s linear infinite;
 }
 .wheel2
 {
@@ -68,7 +68,7 @@
     bottom: 83px;
     left: 733px;
     z-index: 3;
-    animation: wheel 2s linear infinite;
+    animation: wheel 1s linear infinite;
 }
 @keyframes wheel {
     100%{
