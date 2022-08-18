@@ -27,19 +27,19 @@ function start()
     {
         point[i].style.visibility="visible";
     }
-    setInterval(rand,2000);
+    setInterval(rand,1500);
 
 };  
 function rand()
 {
-    var y = Math.floor(Math.random()*5)+1;
+    var y = Math.floor(Math.random()*5);
     mol[y].style.visibility="visible";
     mol[y].onclick=counter;
     function hide()
     {
         mol[y].style.visibility="hidden";
     }
-    setTimeout(hide,1000);
+    setTimeout(hide,900);
 }
 
 function counter()

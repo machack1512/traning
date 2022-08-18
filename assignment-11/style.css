@@ -98,7 +98,7 @@ h1
     position: absolute;
     width: 190px;
     height: 160px;
-    bottom: 220px;
+    bottom: 210px;
     left: 1030px;
 }
 #grass1
@@ -141,5 +141,10 @@ h1
     height: 140px;
     bottom: 140px;
     left: 1030px;
+}
+.score
+{
+    position: absolute;
+    top: 25%;
 }
 
