@@ -27,7 +27,7 @@ h1
     position: absolute;
     width: 250px;
     height: 250px;
-    top: 16%;
+    top: 17%;
     left: 41%;
 }
 #grassbg
@@ -35,7 +35,7 @@ h1
     position: absolute;
     width: 400px;
     height: 300px;
-    top: 34%;
+    top: 36%;
     left: 36%;
 }
 #start
@@ -43,7 +43,7 @@ h1
     padding: 20px 40px 20px 40px;
     position: absolute;
     box-sizing: content-box;
-    bottom: 3%;
+    bottom: 1%;
     left: 45%;
     border: 2px solid black;
     font-size: 20px;
@@ -139,7 +139,7 @@ h1
     position: absolute;
     width: 200px;
     height: 140px;
-    bottom: 160px;
+    bottom: 140px;
     left: 1030px;
 }
 
