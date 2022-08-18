@@ -27,7 +27,7 @@ function start()
     {
         point[i].style.visibility="visible";
     }
-    setInterval(rand,1500);
+    setInterval(rand,1200);
 
 };  
 function rand()
