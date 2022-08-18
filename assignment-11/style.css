@@ -1,0 +1,145 @@
+body
+{
+    background-image: url(2.jpg);
+    background-size: cover;
+    width: 99%;
+    height: 95vh;
+    font-family: cursive;
+    position: relative;
+}
+h1
+{
+    font-size: 70px;
+    position: absolute;
+    left: 33%;
+    margin-top: 0%;
+    color: black;
+}
+.points {
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    visibility: hidden;
+  }
+#molebg
+{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 16%;
+    left: 41%;
+}
+#grassbg
+{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 34%;
+    left: 36%;
+}
+#start
+{
+    padding: 20px 40px 20px 40px;
+    position: absolute;
+    box-sizing: content-box;
+    bottom: 3%;
+    left: 45%;
+    border: 2px solid black;
+    font-size: 20px;
+    text-decoration: solid;
+    background-color: tomato;
+    border-radius: 25px;
+    z-index: 0;
+}
+#start:hover
+{
+    background-color: violet;
+}
+.game
+{
+    visibility: hidden;
+}
+#mole1
+{
+    position: absolute;
+    width: 190px;
+    height: 160px;
+    bottom: 60px;
+    left: 310px;
+}
+#mole2
+{
+    position: absolute;
+    width: 190px;
+    height: 160px;
+    bottom: 60px;
+    left: 590px;
+    z-index: -1;
+}
+#mole3
+{
+    position: absolute;
+    width: 190px;
+    height: 160px;
+    bottom: 60px;
+    left: 870px;
+}
+#mole4
+{
+    position: absolute;
+    width: 190px;
+    height: 160px;
+    bottom: 260px;
+    left: 120px;
+}
+#mole5
+{
+    position: absolute;
+    width: 190px;
+    height: 160px;
+    bottom: 220px;
+    left: 1030px;
+}
+#grass1
+{
+    position: absolute;
+    width: 200px;
+    height: 140px;
+    bottom: 0px;
+    left: 300px;
+}
+#grass2
+{
+    position: absolute;
+    width: 200px;
+    height: 140px;
+    bottom: 0px;
+    left: 590px;
+    z-index: -1;
+}
+#grass3
+{
+    position: absolute;
+    width: 200px;
+    height: 140px;
+    bottom: 0px;
+    left: 870px;
+}
+#grass4
+{
+    position: absolute;
+    width: 200px;
+    height: 140px;
+    bottom: 200px;
+    left: 120px;
+}
+#grass5
+{
+    position: absolute;
+    width: 200px;
+    height: 140px;
+    bottom: 160px;
+    left: 1030px;
+}
+
