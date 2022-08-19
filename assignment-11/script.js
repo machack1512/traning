@@ -9,7 +9,6 @@ var mole2 = document.getElementById("mole2");
 var mole3 = document.getElementById("mole3");
 var mole4 = document.getElementById("mole4");
 var mole5 = document.getElementById("mole5");
-var mole6 = document.getElementById("mole6");
 
 var count = 0;
 
@@ -33,6 +32,7 @@ function start()
 function rand()
 {
     var y = Math.floor(Math.random()*5);
+    console.log(y);
     mol[y].style.visibility="visible";
     mol[y].onclick=counter;
     function hide()
@@ -45,5 +45,6 @@ function rand()
 function counter()
 {
     count++;
+    console.log('clicked')
     point[1].textContent = count;
 }
