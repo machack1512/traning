@@ -3,7 +3,7 @@ var mainmnud = document.getElementById("grassbg");
 var startbtn = document.getElementById("start");
 var mol = document.getElementsByClassName("mole");
 var point = document.querySelectorAll("span");
-var grass69=document.getElementsByClassName("grass");
+var grass69 = document.getElementsByClassName("grass");
 var mole1 = document.getElementById("mole1");
 var mole2 = document.getElementById("mole2");
 var mole3 = document.getElementById("mole3");
@@ -27,7 +27,6 @@ function start()
         point[i].style.visibility="visible";
     }
     setInterval(rand,1200);
-
 };  
 function rand()
 {
