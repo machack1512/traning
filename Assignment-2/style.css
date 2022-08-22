@@ -1,32 +1,31 @@
 * {
-	background-color: grey;
+	margin: 0%;
+	font-family: sans-serif;
+}
+body
+{
+	background-image: linear-gradient(grey,tomato);
 }
 img
 {
-	margin-left: 100px;
-	padding-right: 30px;
-	margin-top: 45px;
-	float: left;
+	width: 70%;
+	height: 500px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 15%;
 	position: relative;
+	border: 3px solid black;
 }
-div.head
-{
 
-	border-style: double;
-	border-radius: 25px;
-}
 h1
 {
 	text-align: center;
 	padding-top: 10px;
 	font-size: 50px;
 	margin: 20px;
-	font-family: sans-serif;
 }
 p.quate
-{
-	font-family: sans-serif;
-	font-style: italic;
+{	font-style: italic;
 }
 p.info
 {
@@ -35,9 +34,6 @@ p.info
     margin-right: 70px;
     margin-left: 70px;
     font-size: 20px;
-    font-family: sans-serif;
-    border-style: double;
-	border-radius: 25px;
 }
 h4
 {
@@ -48,13 +44,17 @@ div.pub
 	margin-right: 220px;
 	margin-left: 240px;
 	margin-bottom: 20px;
-	font-family: sans-serif;
 	font-size: 21px;
 	border-style: double;
 	border-radius: 25px;
+	padding: 20px;
 }
 p
 {
 	text-align: center;
 	margin: 15px;
+}
+.tab2
+{
+	color: black;
 }
