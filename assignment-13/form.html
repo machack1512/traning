@@ -76,6 +76,15 @@ form .user-details .input-box{
    transition: all 0.3s ease;
    background: linear-gradient(135deg, #71b7e6, #9b59b6);
  }
+ .radiobox
+ {
+    margin-right: 6%;
+    margin-bottom: 6%;
+ }
+ .checkbox
+ {
+    margin-right: 5%;  
+ }
  @media(max-width: 584px){
  .container{
   max-width: 100%;
@@ -114,12 +123,36 @@ form .user-details .input-box{
             <input type="text" placeholder="Enter your name">
           </div>
           <div class="input-box">
-            <span class="details">Username</span>
-            <input type="text" placeholder="Enter your username">
-          </div>
-          <div class="input-box">
             <span class="details">Email</span>
             <input type="text" placeholder="Enter your email">
+          </div>
+          <div class="checkbox">
+            <label for="studing" style="font-size: 16px; ">Qualification</label>
+            <br>
+            <select id="cars" name="cars">
+                <option value="volvo">Bacholer</option>
+                <option value="saab">Post-Graduation</option>
+                <option value="fiat">Doctrate</option>
+                <option value="audi">10+2</option>
+              </select>
+          </div>
+          <div class="radiobox">
+            <label for="gender" style="font-size: 16px;">GENDER</label><br>
+              <input type="radio" id="html" name="fav_language">
+  <label for="html">MALE</label><br>
+  <input type="radio" id="css" name="fav_language">
+  <label for="css">FEMALE</label><br>
+  <input type="radio" id="javascript" name="fav_language">
+  <label for="javascript">NOT-DETERMINE</label>
+          </div>
+          <div class="checkbox">
+            <label for="hobies" style="font-size: 16px;">  Hobbies</label><br>
+            <input type="checkbox" id="vehicle1" name="vehicle1">
+            <label for="vehicle1">CRICKET</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2">
+            <label for="vehicle2">FOOTBAL</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3">
+            <label for="vehicle3">READING</label>
           </div>
         </div>
          
