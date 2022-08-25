@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    min-height: 100vh;
+    color: white;
+    background-image: url(6t.jpg);
+    background-size: cover;
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #canvas {
+    margin-top: 10px;
+    background-color: azure;
+    border-radius: 10px;
+    background: transparent;
+  }
+  
+  #source {
+    display: none;
+  }
+  
