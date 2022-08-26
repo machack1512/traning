@@ -21,7 +21,8 @@ h1
 {
     position: absolute;
     top: 30%;
-    left: 28%;
+    left: 27%;
+    right: 20%;
     font-family: sans-serif;
     color: white;
     font-size: 55px;
@@ -29,8 +30,9 @@ h1
 p.hello
 {
     position: absolute;
-    top: 270px;
-    left: 150px;
+    top: 42%;
+    left: 10%;
+    right: 10%;
     font-family: sans-serif;
     font-size: 15px;
     color: white;
@@ -44,14 +46,14 @@ a
     font-family: sans-serif;
     font-size: 29px;
     color: white;
-    border-style: solid;
     padding: 20px;
     border-radius: 25px;
     background-color: black;
     text-decoration: none;  
 }
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px black;
     background-color: brown;
   }
 p.first
