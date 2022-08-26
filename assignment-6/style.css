@@ -14,21 +14,32 @@ body
 .container
 {
     margin: auto;
-    margin-top: 10%;
+    margin-top: 5%;
     border: 2px double black;
+    border-radius: 25px;
     width: 50%;
     height: 65%;
     background-color: wheat;
+    box-shadow: 10px 10px 10px black;
 }
 .first
 {
-     margin-top: 3%;
-     margin-left: 35%;
+     margin-top: 2%;
+     margin-left: 37%;
+     margin-right: 30%;
 }
 p
 {
     font-size: large;
     text-align: center;
+}
+button
+{
+    font-size: 15px;
+    background-color: coral;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: 30%;
 }
 #demo2
 {
