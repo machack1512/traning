@@ -7,9 +7,10 @@
     <title>ONLINE/OFFLINE</title>
     <style>
         body{
-        min-height:100%;
         background: linear-gradient(120deg, skyblue,white);
-        width:100%;
+        background-repeat: no-repeat;
+        height: 95vh;
+        width:95%;
 }
 *{
   margin:0px;
@@ -18,23 +19,24 @@
 }
 #heading{
   width:100%;
-  margin-top: 40px;
+  margin-top: 5px;
   text-align:center;
   padding:30px;
   color: black;
 }
-.img
+#img
 {
     width: 100px;
     height: 100px;
+    margin-left: 48%;
 }
 .offline #img:after{
-    background: url("offline.png") no-repeat;
+    content: url("offline.png");
     background-size: cover;
 
 }
 .online #img:after{
-    background: url("online.png") no-repeat;
+    content: url("online.png");
     background-size: cover;
 }
 .offline #heading:after{
@@ -48,6 +50,7 @@
 </head>
 <body>
     <h1 style="text-align: center; margin-top: 30px;">Try to Disconnect the Internet</h1>
+    <br><br>
     <div id="img"></div>
     <h2 id="heading"></h2>
      
