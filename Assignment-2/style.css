@@ -5,16 +5,17 @@
 body
 {
 	background-image: linear-gradient(grey,tomato);
+	width: 100%;
 }
 img
 {
-	width: 70%;
+	width: 65%;
 	height: 500px;
-	margin-top: 40px;
-	margin-bottom: 40px;
-	margin-left: 15%;
-	position: relative;
-	border: 3px solid black;
+    margin-left: 18%;
+	margin-bottom: 10px;
+	border: 3px solid white;
+	border-radius: 25px;
+	box-shadow: 10px 10px 10px black;
 }
 
 h1
@@ -29,11 +30,9 @@ p.quate
 }
 p.info
 {
-	padding: 40px;
-	margin-top: 15px;
-    margin-right: 70px;
-    margin-left: 70px;
-    font-size: 20px;
+    text-align: center;
+    font-size: 3vh;
+	margin-bottom: 3em;
 }
 h4
 {
@@ -41,10 +40,9 @@ h4
 }
 div.pub
 {
-	margin-right: 220px;
-	margin-left: 240px;
-	margin-bottom: 20px;
-	font-size: 21px;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 1.1em;	
 	border-style: double;
 	border-radius: 25px;
 	padding: 20px;
