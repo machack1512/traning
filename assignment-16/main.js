@@ -27,7 +27,7 @@ function preload() {
       );
     brickImage = loadImage("img/brick.png");
     coinSound = loadSound("sounds/coinSound.mp3");
-    jumpSound = loadSound("sounds/jump.mp3");
+    jumpSound = loadSound("sounds/sounds_jump.mp3");
   }
   function setup() {
     createCanvas(1000, 600);
