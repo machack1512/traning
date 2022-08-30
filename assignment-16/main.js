@@ -48,9 +48,9 @@ function preload() {
         "img/tur5.png"
       );
       mario_collided = loadAnimation("img/dead.png");
-    
+      
       dieSound = loadSound("sounds/dieSound.mp3");
-    
+
       restartImg = loadImage("img/restart.png");
   }
   function setup() {
