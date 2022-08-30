@@ -48,13 +48,13 @@ function preload() {
         "img/tur5.png"
       );
       mario_collided = loadAnimation("img/dead.png");
-      
+
       dieSound = loadSound("sounds/dieSound.mp3");
 
       restartImg = loadImage("img/restart.png");
   }
   function setup() {
-    createCanvas(1000, 600);
+    createCanvas(1000, 625);
     bg = createSprite(600, 300, 150, 50);
     mario = createSprite(200, 520, 150, 50);
     bg.addImage(bgImage);
