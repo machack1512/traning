@@ -1,4 +1,3 @@
-"use strict";
 function username() {
     var user = prompt("Enter the name: ");
     document.getElementById("tab").innerHTML = String(user);
